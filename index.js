@@ -7,6 +7,7 @@ const app = express();
 app.get("/", (_, res) => {
     return res.json({
         message: "Server is healthy.",
+        new: "Github workflows working yayyyyy !!!"
     });
 });
 
